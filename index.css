@@ -5,30 +5,14 @@
 }
 body {
   font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .navbar {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-#color-scheme-btn {
-  padding: 5px 15px;
-}
-
-li {
-  list-style: none;
-}
-
-.dropdown {
-  display: none;
-  background-color: white;
-  padding: 1em 0;
-  position: absolute;
-  display: none;
-  border-radius: 8px;
-  left: 0px;
-  top: 30px;
-  box-shadow: 0px 10px 20px #dadadb;
 }
