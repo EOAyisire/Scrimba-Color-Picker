@@ -9,5 +9,14 @@ body {
 
 .navbar {
   display: flex;
-  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#color-scheme-btn {
+  padding: 5px 15px;
+}
+
+li {
+  list-style: none;
 }
