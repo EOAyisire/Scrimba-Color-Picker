@@ -29,7 +29,7 @@ body {
 
 .select {
   background: white;
-  color: black;
+  color: #111827;
   display: flex;
   justify-content: space-between;
   border: 1px black solid;
@@ -103,4 +103,9 @@ body {
 }
 
 .color-btn {
+  padding: 0.7em;
+  border: 1px solid #d1d5db;
+  border-radius: 0.2em;
+  background: none;
+  color: #111827;
 }
