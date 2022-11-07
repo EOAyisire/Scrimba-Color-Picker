@@ -13,6 +13,7 @@ dropdowns.forEach((dropdown) => {
     select.classList.toggle("select-clicked");
     //  add rotat to caret
     caret.classList.toggle("caret-rotate");
+    menu.classList.toggle("menu-open");
   });
 
   options.forEach((option) => {
@@ -28,6 +29,8 @@ dropdowns.forEach((dropdown) => {
       options.forEach((option) => {
         option.classList.remove("active");
       });
+      //   add active class to clicked option el
+      option.classList.add("active");
     });
   });
 });
