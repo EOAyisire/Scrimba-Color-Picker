@@ -9,6 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  border: 1px solid red;
 }
 
 .navbar {
@@ -16,7 +17,7 @@ body {
   align-items: center;
   justify-content: center;
   min-width: 550px;
-  height: 90px;
+  margin: 10px;
 }
 
 .color-btn {
